@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>りりとの恋愛シミュレーション</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="start-container">
+        <button id="start-button" class="choice-button">ゲームをはじめる</button>
+    </div>
+    <div id="game-container" style="display: none;">
+        <div id="character-container">
+            <img id="character-image" src="a7e36bc2a222cf062a1dc3bf5c05b4ddfa50b12d.png" alt="りり">
+        </div>
+        <div id="text-container">
+            <p id="dialogue"></p>
+        </div>
+        <div id="choices-container">
+            <!-- 選択肢はここに動的に追加されます -->
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <audio id="bgm" src="extracted_audio_trimmed.mp3" loop></audio>
+</body>
+</html>
