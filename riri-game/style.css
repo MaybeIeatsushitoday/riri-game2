@@ -45,8 +45,9 @@ body {
 
 #character-image {
     max-width: 100%;
-    height: 400px;
-    object-fit: cover;
+    max-height: 80vh; /* 画面の高さの80%を上限とする */
+    width: auto; /* 幅は自動調整 */
+    object-fit: contain; /* 画像全体が表示されるように調整 */
 }
 
 #text-container {
